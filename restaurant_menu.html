@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>🍔 Burger House</title>
+        <style>
+        * {
+        margin: 5;
+        padding: 2;
+        }
+
+        li {
+            display: inline;
+        }
+
+        hr {
+            width: 95%;
+            margin: auto;
+        }
+        </style>        
+    </head>
+    <body>
+        <header>
+            <h1>Burger House</h1>
+            <figure>
+                <img
+                width="200"
+                id="header-img" 
+                src="https://www.designenlassen.de/blog/wp-content/uploads/2020/07/Burger-House-Food-Logo-Design.png" 
+                alt="Burger-Pic"
+                />
+            </figure>
+            <section>
+                <h2>🧭Navigation</h2>
+                <nav>
+                    <ul>
+                        <il><a href="#menu">Menu</a></il>
+                        <br>
+                        <il><a href="#order-form"> Place Order</a></il>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section id="menu">
+                <h2>🧾 Menu</h2>
+
+                <hr>
+
+                <article>
+                    <h3>🍔 Classic Hamburger</h3>
+                    <figure>
+                        <img
+                        width="300"
+                        src="https://www.burgerking-luebeck.de/files/content/produkte-xl/WHOPPER.png"
+                        alt="Hamburger"
+                        />
+                    </figure>
+                    <p>Our juicy 100% beef patty, grilled to perfection, 
+                        topped with fresh lettuce, <br>ripe tomatoes, crunchy pickles, 
+                        onions, and our signature house sauce.<br> Served on a fluffy toasted bun..</p>
+                    <ul>
+                        <li><b>Single:</b> <i>$4.50</i></li><br>
+                        <li><b>Meal (with fries & drink):</b> <i>$7.90</i></li>
+                    </ul>
+                </article>
+
+                <br><hr>
+
+                <article>
+                    <h3>🧀 Cheeseburger</h3>
+                    <figure>
+                        <img
+                        width="300"
+                        src="https://cdn.sanity.io/images/czqk28jt/prod_bk_ch/796c2aa55a81ed6104d92e1db235f3603e0b8565-1600x1600.png?w=648&q=40&fit=max&auto=format"
+                        alt="Cheeseburger"
+                        />
+                    </figure>
+                    <p>Everything you love about our classic hamburger, <br>
+                        plus a slice of perfectly melted cheddar cheese for that extra savory kick.<br>
+                        Balanced, satisfying, and always a favorite.</p>
+                    <ul>
+                        <li><b>Single:</b> <i>$4.90</i></li><br>
+                        <li><b>Meal (with fries & drink):</b> <i>$8.30</i></li>
+                    </ul>
+                </article>
+
+                <br><hr>
+
+                <article>
+                    <h3>🍗 Chickenburger</h3>
+                    <figure>
+                        <img
+                        width="300"
+                        src="https://www.burgerking-luebeck.de/files/content/produkte-xl/Crispy-Chicken.png"
+                        alt="Chickenburger"
+                        />
+                        <p>A crispy golden chicken fillet with fresh lettuce, creamy mayo,<br> and crunchy pickles, 
+                            served on a soft toasted bun. Crispy outside,<br> tender inside. Pure comfort in every bite.</p>
+                        <ul>
+                            <li><b>Single:</b> <i>$5.20</i></li><br>
+                            <li><b>Meal (with fries & drink):</b> <i>$8.60</i></li>
+                        </ul>
+                    </figure>
+                </article>
+            </section>
+
+            <br><hr>
+
+            <section id="order-form">
+                <h2>✍🏼 Place your Order</h2>
+                <form>
+                    <label for="ham">🍔 Hamburger</label>
+                    <input id="ham" type="number" min="0"></input>
+                    <input type="radio" name="option">Single</input>
+                    <input type="radio" name="option">Meal</input>
+
+                    <br><br>
+
+                    <label for="cheese">🧀 Cheeseburger</label>
+                    <input id="cheese" type="number" min="0"></input>
+                    <input type="radio" name="option1">Single</input>
+                    <input type="radio" name="option1">Meal</input>
+
+                    <br><br>
+
+                    <label for="chicken">🍗 Chickenburger</label>
+                    <input id="chicken" type="number" min="0"></input>
+                    <input type="radio" name="option2">Single</input>
+                    <input type="radio" name="option2">Meal</input>
+
+                    <br><br>
+
+                    <label for="textarea">Special requests:</label><br><br>
+                    <textarea id="textarea" rows="4" cols="50" placeholder="Special requests in here:"></textarea>
+
+                    <br>
+
+                    <label for="submit">Complete your Order:</label>
+                    <input type="submit" value="Go To Checkout"></input>
+                </form>
+            </section>
+        </main>
+        <br><hr>
+        <footer>
+            <p>Made with love by david.pf</p>
+        </footer>
+    </body>
+</html>
